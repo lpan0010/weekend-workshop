@@ -1,6 +1,6 @@
 package Payslip;
 
-public class Employee {
+public abstract class Employee {
 	public String name;
     public String surname;
     public Double salary;
@@ -16,5 +16,6 @@ public class Employee {
         this.month = month;
     }
     
+    public abstract void Work();
 
 }

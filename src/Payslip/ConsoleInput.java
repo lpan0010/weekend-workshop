@@ -6,7 +6,7 @@ import java.io.InputStreamReader;
 
 public class ConsoleInput {
 
-	public Employee GetInputs()  throws IOException
+	public Employee GetEmployeeDetails()  throws IOException
     {
 		System.out.println("-----------------------------------");
 		
@@ -23,7 +23,8 @@ public class ConsoleInput {
         System.out.print("Please enter your payment month: ");
         var month = my_reader.readLine();
 
-        return new Employee(name, surname, salary, superRate, month);
+        return new Developer(name, surname, salary, superRate, month);
+//        return new Accountant(name, surname, salary, superRate, month); -- this 
     }
 
 }
