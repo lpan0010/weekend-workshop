@@ -6,7 +6,7 @@ import java.io.InputStreamReader;
 
 public class ConsoleInput {
 
-	public Employee GetInputs()  throws IOException
+	public Employee GetEmployeeDetails()  throws IOException
     {
 		System.out.println("-----------------------------------");
 		
